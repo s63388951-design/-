@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="重庆亲子游详细行程规划方案 - 2大1小5天4晚深度游">
-    <title>重庆亲子游详细行程规划方案</title>
+    <meta name="description" content="重庆+成都跨城亲子游详细行程规划方案 - 2大1小5天4晚深度游">
+    <title>重庆+成都跨城亲子游详细行程规划方案</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -956,6 +956,44 @@
             font-weight: 600;
         }
 
+        .attraction-detail-card {
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            margin-bottom: var(--spacing-lg);
+            transition: all var(--transition-normal);
+        }
+
+        .attraction-detail-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .attraction-detail-header {
+            padding: var(--spacing-md);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .attraction-detail-header h3 {
+            color: white;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .attraction-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .attraction-detail-body {
+            padding: var(--spacing-md);
+        }
+
         .footer {
             background: var(--color-text-primary);
             color: white;
@@ -1140,17 +1178,18 @@
     <section class="hero" id="overview">
         <div class="container">
             <div class="hero-content">
-                <h1>重庆亲子游详细行程规划方案</h1>
-                <p class="hero-subtitle">2大1小（5岁儿童）· 5天4晚深度游 · 2月19日-23日</p>
+                <h1>重庆+成都跨城亲子游综合行程规划方案</h1>
+                <p class="hero-subtitle">5天4晚（重庆2.5天 + 成都1.5天 + 返程）· 2月19日-23日</p>
                 <div class="hero-tags">
                     <span class="hero-tag">👨‍👩‍👧 亲子友好</span>
                     <span class="hero-tag">🐼 大熊猫观赏</span>
+                    <span class="hero-tag">🚄 跨城体验</span>
                     <span class="hero-tag">🌉 8D魔幻城市</span>
                     <span class="hero-tag">🍜 美食之旅</span>
-                    <span class="hero-tag">📍 不走回头路</span>
+                    <span class="hero-tag">🚅 高铁出行</span>
                 </div>
                 <div style="margin-top: var(--spacing-lg); padding: var(--spacing-md); background: rgba(255,255,255,0.15); border-radius: var(--radius-md); backdrop-filter: blur(10px);">
-                    <p style="margin: 0; font-size: 14px;">🌡️ <strong>2月重庆天气：</strong>平均气温8-12℃ | 早晚温差大 | 多雾湿度高 | 建议携带薄羽绒服和雨具</p>
+                    <p style="margin: 0; font-size: 14px;">🌡️ <strong>2月天气：</strong>重庆8-12℃ | 成都6-10℃ | 早晚温差大 | 建议携带薄羽绒服和雨具</p>
                 </div>
             </div>
         </div>
@@ -1158,6 +1197,135 @@
 
     <main class="main-content">
         <div class="container">
+            <section class="section fade-in" id="transport-section">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-title-icon">🚄</div>
+                        <h2>重庆与成都交通安排</h2>
+                    </div>
+                </div>
+
+                <h4 style="margin-bottom: var(--spacing-md);">交通方式对比分析</h4>
+                <table class="transport-table" style="margin-bottom: var(--spacing-lg);">
+                    <thead>
+                        <tr>
+                            <th>交通方式</th>
+                            <th>行程时长</th>
+                            <th>票价范围</th>
+                            <th>发车频次</th>
+                            <th>亲子友好度</th>
+                            <th>推荐指数</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>高铁（G字头）</strong></td>
+                            <td>1小时20分-1小时40分</td>
+                            <td>二等座146元/一等座234元</td>
+                            <td>每10-20分钟一班</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                            <td>★★★★★</td>
+                        </tr>
+                        <tr>
+                            <td>动车（D字头）</td>
+                            <td>2小时-2小时30分</td>
+                            <td>二等座89元/一等座107元</td>
+                            <td>每20-30分钟一班</td>
+                            <td>⭐⭐⭐⭐</td>
+                            <td>★★★★☆</td>
+                        </tr>
+                        <tr>
+                            <td>长途汽车</td>
+                            <td>4-5小时</td>
+                            <td>80-120元</td>
+                            <td>每1-2小时一班</td>
+                            <td>⭐⭐</td>
+                            <td>★★☆☆☆</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight-box" style="margin-bottom: var(--spacing-lg);">
+                    <h5>推荐交通方案：高铁G字头列车</h5>
+                    <div class="info-grid" style="margin-top: var(--spacing-sm);">
+                        <div class="info-item">
+                            <span class="info-label">推荐车次：</span>
+                            <span class="info-value">G2232（重庆西07:05→成都东08:23）或 G2370（成都东07:06→重庆西08:30）</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">出发站：</span>
+                            <span class="info-value">重庆西站 / 成都东站</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">到达站：</span>
+                            <span class="info-value">成都东站 / 重庆西站</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">行程时长：</span>
+                            <span class="info-value">约1小时20分-1小时40分</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">票价：</span>
+                            <span class="info-value">二等座146元/人，儿童半价73元；一等座234元/人，儿童半价117元</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">儿童政策：</span>
+                            <span class="info-value">1.2米以下免票（不占座），1.2-1.5米半价票</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 style="margin-bottom: var(--spacing-md);">亲子出行优势</h4>
+                <ul class="advantage-list" style="margin-bottom: var(--spacing-lg);">
+                    <li>行程短，儿童不易疲劳</li>
+                    <li>车厢宽敞，可携带行李便利</li>
+                    <li>设有无障碍卫生间</li>
+                    <li>车厢内有充电插座</li>
+                    <li>准点率高，时间可控</li>
+                </ul>
+
+                <h4 style="margin-bottom: var(--spacing-md);">车站接驳方案</h4>
+                <table class="transport-table">
+                    <thead>
+                        <tr>
+                            <th>路线</th>
+                            <th>方式</th>
+                            <th>路线详情</th>
+                            <th>时间</th>
+                            <th>费用</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2"><strong>重庆西站→市区（解放碑）</strong></td>
+                            <td>地铁</td>
+                            <td>环线→2号线→临江门站</td>
+                            <td>约50分钟</td>
+                            <td>6元</td>
+                        </tr>
+                        <tr>
+                            <td>打车</td>
+                            <td>重庆西站→解放碑</td>
+                            <td>约40分钟</td>
+                            <td>50-70元</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"><strong>成都东站→市区（春熙路）</strong></td>
+                            <td>地铁</td>
+                            <td>2号线直达春熙路站</td>
+                            <td>约25分钟</td>
+                            <td>4元</td>
+                        </tr>
+                        <tr>
+                            <td>打车</td>
+                            <td>成都东站→春熙路</td>
+                            <td>约30分钟</td>
+                            <td>30-40元</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
             <section class="section fade-in" id="accommodation">
                 <div class="section-header">
                     <div class="section-title">
@@ -1169,8 +1337,8 @@
                 <div class="accommodation-grid">
                     <div class="accommodation-card">
                         <div class="accommodation-card-header">
-                            <h3>前3晚（2月19日-22日）</h3>
-                            <p>解放碑/洪崖洞商圈</p>
+                            <h3>前2晚（2月19日-21日）</h3>
+                            <p>重庆·解放碑/洪崖洞商圈</p>
                         </div>
                         <div class="accommodation-card-body">
                             <ul class="advantage-list">
@@ -1211,15 +1379,16 @@
 
                     <div class="accommodation-card">
                         <div class="accommodation-card-header" style="background: linear-gradient(135deg, #10B981, #34D399);">
-                            <h3>第4晚（2月22日）</h3>
-                            <p>重庆西站商圈</p>
+                            <h3>第3晚（2月21日-22日）</h3>
+                            <p>成都·春熙路/太古里商圈</p>
                         </div>
                         <div class="accommodation-card-body">
                             <ul class="advantage-list">
-                                <li>距离重庆西站步行5-10分钟，确保次日10点前抵达车站</li>
-                                <li>地铁环线、5号线直达，交通便利</li>
-                                <li>周边有巴国城美食街、商业配套</li>
-                                <li>节省返程时间，避免早高峰拥堵</li>
+                                <li>成都最繁华商业区，购物美食一站式</li>
+                                <li>地铁2号线春熙路站，交通便利</li>
+                                <li>紧邻IFS、太古里，时尚地标</li>
+                                <li>周边亲子餐厅丰富，儿童友好</li>
+                                <li>距离成都东站地铁直达，方便返程</li>
                             </ul>
                             <table class="hotel-table">
                                 <thead>
@@ -1231,19 +1400,19 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>重庆西站站前广场亚朵酒店</td>
+                                        <td>成都太古里亚朵酒店（亲子主题店）</td>
+                                        <td><span class="price-tag">400-600元/晚</span></td>
+                                        <td>亲子主题房、儿童帐篷</td>
+                                    </tr>
+                                    <tr>
+                                        <td>隐栖堂套房酒店（春熙路店）</td>
                                         <td><span class="price-tag">350-500元/晚</span></td>
-                                        <td>品质连锁、服务好</td>
+                                        <td>套房设计、空间大</td>
                                     </tr>
                                     <tr>
-                                        <td>禾生酒店（重庆西站店）</td>
-                                        <td><span class="price-tag">250-350元/晚</span></td>
-                                        <td>性价比高、位置便利</td>
-                                    </tr>
-                                    <tr>
-                                        <td>丽枫酒店（重庆西站店）</td>
-                                        <td><span class="price-tag">300-400元/晚</span></td>
-                                        <td>舒适连锁、交通便利</td>
+                                        <td>丽橙酒店（春熙路店）</td>
+                                        <td><span class="price-tag">300-450元/晚</span></td>
+                                        <td>亲子房设计、性价比高</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1330,46 +1499,14 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地点：</span>
-                                            <span class="info-value">渝中区两路口</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">人均：</span>
-                                            <span class="info-value">25元</span>
-                                        </div>
-                                    </div>
-                                    <p><strong>推荐：</strong>清汤面、蒸蛋</p>
-                                    <p><span class="spicy-tag spicy-none">不辣</span></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-dot info"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">12:30-13:30</span>
-                                        <span class="timeline-title">前往弹子石</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <div class="info-grid">
-                                        <div class="info-item">
-                                            <span class="info-label">路线：</span>
-                                            <span class="info-value">两路口 → 弹子石</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">交通：</span>
-                                            <span class="info-value">地铁+公交</span>
+                                            <span class="info-value">解放碑附近酒店</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">时长：</span>
-                                            <span class="info-value">约1小时</span>
+                                            <span class="info-value">1小时</span>
                                         </div>
                                     </div>
+                                    <p>卸行李，适应环境</p>
                                 </div>
                             </div>
                         </div>
@@ -1379,8 +1516,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">13:30-16:00</span>
-                                        <span class="timeline-title">弹子石老街</span>
+                                        <span class="time-badge">14:30-16:00</span>
+                                        <span class="timeline-title">解放碑步行街</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -1390,7 +1527,7 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地址：</span>
-                                            <span class="info-value">南岸区弹子石</span>
+                                            <span class="info-value">渝中区解放碑中心地带</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">门票：</span>
@@ -1401,16 +1538,10 @@
                                             <span class="info-value">全天</span>
                                         </div>
                                     </div>
-                                    <p><strong>特色亮点：</strong></p>
-                                    <ul style="margin-left: 20px; margin-top: 8px;">
-                                        <li>原址复建的老街，山城特色建筑</li>
-                                        <li>可遥望朝天门、来福士全景</li>
-                                        <li>晚上夜景更美</li>
-                                        <li>融合复古与现代风格</li>
-                                    </ul>
+                                    <p><strong>特色：</strong>重庆精神坐标，抗战胜利纪念碑，周边商场林立</p>
                                     <div class="highlight-box">
                                         <h5>亲子建议</h5>
-                                        <p>有坡度，选择平缓路段，晚上夜景更佳</p>
+                                        <p>可逛商场休息，有儿童游乐设施</p>
                                     </div>
                                 </div>
                             </div>
@@ -1421,8 +1552,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">16:00-17:00</span>
-                                        <span class="timeline-title">长江索道（南站）</span>
+                                        <span class="time-badge">16:00-17:30</span>
+                                        <span class="timeline-title">八一好吃街</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -1432,59 +1563,19 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地址：</span>
-                                            <span class="info-value">南岸区上新街（南站）</span>
+                                            <span class="info-value">渝中区八一路</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">门票：</span>
-                                            <span class="info-value">单程20元，往返30元</span>
+                                            <span class="info-value">免费</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">开放：</span>
-                                            <span class="info-value">冬季8:00-21:00</span>
+                                            <span class="info-value">10:00-22:00</span>
                                         </div>
                                     </div>
-                                    <p><strong>特色亮点：</strong></p>
-                                    <ul style="margin-left: 20px; margin-top: 8px;">
-                                        <li>跨越长江的空中交通工具</li>
-                                        <li>俯瞰两江交汇美景</li>
-                                        <li>重庆独特交通体验</li>
-                                        <li>电影《疯狂的石头》取景地</li>
-                                    </ul>
-                                    <div class="highlight-box">
-                                        <h5>亲子建议</h5>
-                                        <p>建议提前购票，避免排队，只买单程票即可</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-dot info"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">17:00-18:00</span>
-                                        <span class="timeline-title">返回渝中区</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <div class="info-grid">
-                                        <div class="info-item">
-                                            <span class="info-label">路线：</span>
-                                            <span class="info-value">南岸区 → 解放碑</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">交通：</span>
-                                            <span class="info-value">索道+步行</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">时长：</span>
-                                            <span class="info-value">约1小时</span>
-                                        </div>
-                                    </div>
+                                    <p><strong>特色：</strong>重庆小吃集中地，品种丰富</p>
+                                    <p><strong>亲子美食：</strong>红糖糍粑（不辣）、凉糕（不辣）、山城汤圆（不辣）</p>
                                 </div>
                             </div>
                         </div>
@@ -1494,8 +1585,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">18:00-19:30</span>
-                                        <span class="timeline-title">晚餐：抄手佬</span>
+                                        <span class="time-badge">17:30-19:00</span>
+                                        <span class="timeline-title">晚餐：周师兄火锅</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -1509,11 +1600,29 @@
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">人均：</span>
-                                            <span class="info-value">20元</span>
+                                            <span class="info-value">80元</span>
                                         </div>
                                     </div>
-                                    <p><strong>推荐菜品：</strong>清汤抄手、鸡汤抄手</p>
-                                    <p><span class="spicy-tag spicy-none">不辣</span></p>
+                                    <p><strong>推荐菜品：</strong>鸳鸯锅、鲜虾滑、娃娃菜、红糖糍粑</p>
+                                    <p><span class="spicy-tag spicy-none">可选不辣</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">19:00-20:00</span>
+                                        <span class="timeline-title">返回酒店休息</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <p>早休息，适应环境</p>
                                 </div>
                             </div>
                         </div>
@@ -1533,25 +1642,18 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>早餐</td>
-                                    <td>酒店附近</td>
-                                    <td>清汤小面、豆花</td>
+                                    <td>下午茶</td>
+                                    <td>八一好吃街</td>
+                                    <td>红糖糍粑、凉糕、山城汤圆</td>
                                     <td><span class="spicy-tag spicy-none">不辣</span></td>
-                                    <td>15元</td>
-                                </tr>
-                                <tr>
-                                    <td>午餐</td>
-                                    <td>两路口附近</td>
-                                    <td>清汤面、蒸蛋</td>
-                                    <td><span class="spicy-tag spicy-none">不辣</span></td>
-                                    <td>25元</td>
+                                    <td>30元</td>
                                 </tr>
                                 <tr>
                                     <td>晚餐</td>
-                                    <td>抄手佬</td>
-                                    <td>清汤抄手、鸡汤抄手</td>
-                                    <td><span class="spicy-tag spicy-none">不辣</span></td>
-                                    <td>20元</td>
+                                    <td>周师兄火锅</td>
+                                    <td>鸳鸯锅、鲜虾滑、娃娃菜、红糖糍粑</td>
+                                    <td><span class="spicy-tag spicy-none">可选不辣</span></td>
+                                    <td>80元</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1896,7 +1998,7 @@
                 <div class="day-content" id="day3">
                     <div class="day-header" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
                         <h3>第3天：2月21日（周五）</h3>
-                        <p>8D魔幻交通体验</p>
+                        <p>重庆→成都 跨城之旅</p>
                     </div>
 
                     <div class="timeline">
@@ -1905,15 +2007,15 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">08:00-08:30</span>
-                                        <span class="timeline-title">起床，早餐</span>
+                                        <span class="time-badge">07:00-07:30</span>
+                                        <span class="timeline-title">起床，早餐，退房</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p>酒店早餐</p>
+                                    <p>酒店早餐，打包行李，准备前往成都</p>
                                 </div>
                             </div>
                         </div>
@@ -1923,7 +2025,7 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">08:30-09:30</span>
+                                        <span class="time-badge">07:30-08:30</span>
                                         <span class="timeline-title">前往李子坝</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1954,8 +2056,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">09:30-10:30</span>
-                                        <span class="timeline-title">李子坝轻轨穿楼观景台</span>
+                                        <span class="time-badge">08:30-09:30</span>
+                                        <span class="timeline-title">李子坝轻轨穿楼观景台 🚇</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -1996,7 +2098,7 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">10:30-11:30</span>
+                                        <span class="time-badge">09:30-10:30</span>
                                         <span class="timeline-title">皇冠大扶梯</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -2034,41 +2136,89 @@
                         </div>
 
                         <div class="timeline-item">
-                            <div class="timeline-dot warning"></div>
+                            <div class="timeline-dot info"></div>
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">11:30-12:30</span>
-                                        <span class="timeline-title">午餐：两路口附近</span>
+                                        <span class="time-badge">10:30-11:30</span>
+                                        <span class="timeline-title">前往重庆西站</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p><strong>推荐：</strong>清汤面、蒸蛋</p>
-                                    <p><span class="spicy-tag spicy-none">不辣</span> · 人均25元</p>
+                                    <div class="info-grid">
+                                        <div class="info-item">
+                                            <span class="info-label">路线：</span>
+                                            <span class="info-value">两路口 → 重庆西站</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">交通：</span>
+                                            <span class="info-value">地铁1号线→环线</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">时长：</span>
+                                            <span class="info-value">约1小时</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="timeline-item">
-                            <div class="timeline-dot"></div>
+                            <div class="timeline-dot warning"></div>
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">12:30-14:00</span>
-                                        <span class="timeline-title">酒店午休</span>
+                                        <span class="time-badge">11:30-12:00</span>
+                                        <span class="timeline-title">午餐：车站简餐</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p>返回酒店休息，让孩子恢复体力</p>
+                                    <p><strong>推荐：</strong>便利店/快餐</p>
+                                    <p><span class="spicy-tag spicy-none">不辣</span> · 人均30元</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot info"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">12:00-13:30</span>
+                                        <span class="timeline-title">高铁前往成都 🚄</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <div class="info-grid">
+                                        <div class="info-item">
+                                            <span class="info-label">车次：</span>
+                                            <span class="info-value">G字头高铁</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">路线：</span>
+                                            <span class="info-value">重庆西 → 成都东</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">时长：</span>
+                                            <span class="info-value">约1小时20分-1小时40分</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">票价：</span>
+                                            <span class="info-value">二等座146元/人，儿童半价73元</span>
+                                        </div>
+                                    </div>
                                     <div class="highlight-box">
-                                        <h5>亲子提示</h5>
-                                        <p>5岁儿童需要充足休息，避免过度疲劳</p>
+                                        <h5>亲子出行优势</h5>
+                                        <p>行程短，儿童不易疲劳；车厢宽敞，设有无障碍卫生间；车厢内有充电插座</p>
                                     </div>
                                 </div>
                             </div>
@@ -2079,8 +2229,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">14:00-15:00</span>
-                                        <span class="timeline-title">前往鹅岭二厂</span>
+                                        <span class="time-badge">13:30-14:30</span>
+                                        <span class="timeline-title">前往酒店入住（成都）</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2090,17 +2240,35 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">路线：</span>
-                                            <span class="info-value">两路口 → 鹅岭</span>
+                                            <span class="info-value">成都东站 → 春熙路</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">交通：</span>
-                                            <span class="info-value">地铁1号线</span>
+                                            <span class="info-value">地铁2号线直达</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">时长：</span>
-                                            <span class="info-value">约30分钟</span>
+                                            <span class="info-value">约25分钟</span>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">14:30-15:30</span>
+                                        <span class="timeline-title">休整</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <p>成都酒店休息，适应新环境</p>
                                 </div>
                             </div>
                         </div>
@@ -2110,8 +2278,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">15:00-17:00</span>
-                                        <span class="timeline-title">鹅岭二厂文创公园</span>
+                                        <span class="time-badge">15:30-18:00</span>
+                                        <span class="timeline-title">春熙路/太古里 🐼</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2121,7 +2289,7 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地址：</span>
-                                            <span class="info-value">渝中区鹅岭正街1号</span>
+                                            <span class="info-value">锦江区春熙路</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">门票：</span>
@@ -2134,87 +2302,14 @@
                                     </div>
                                     <p><strong>特色亮点：</strong></p>
                                     <ul style="margin-left: 20px; margin-top: 8px;">
-                                        <li>《从你的全世界路过》取景地</li>
-                                        <li>老厂房改造的文创园区</li>
-                                        <li>涂鸦墙、创意店铺、观景台</li>
-                                        <li>适合拍照打卡，文艺气息浓厚</li>
+                                        <li>成都最繁华商业街</li>
+                                        <li>IFS爬墙熊猫打卡点</li>
+                                        <li>太古里古建筑与现代融合</li>
+                                        <li>美食购物一站式</li>
                                     </ul>
                                     <div class="highlight-box">
                                         <h5>亲子建议</h5>
-                                        <p>有儿童友好的文创店铺和甜品店，可俯瞰城市景观</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-dot info"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">17:00-18:00</span>
-                                        <span class="timeline-title">前往南山一棵树</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <div class="info-grid">
-                                        <div class="info-item">
-                                            <span class="info-label">路线：</span>
-                                            <span class="info-value">鹅岭 → 南山</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">交通：</span>
-                                            <span class="info-value">打车约30元</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">时长：</span>
-                                            <span class="info-value">约30分钟</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-dot success"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">18:00-20:00</span>
-                                        <span class="timeline-title">南山一棵树观景台</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <div class="info-grid">
-                                        <div class="info-item">
-                                            <span class="info-label">地址：</span>
-                                            <span class="info-value">南岸区龙黄公路</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">门票：</span>
-                                            <span class="info-value">30元/人，1.2米以下免费</span>
-                                        </div>
-                                        <div class="info-item">
-                                            <span class="info-label">开放：</span>
-                                            <span class="info-value">09:00-22:30</span>
-                                        </div>
-                                    </div>
-                                    <p><strong>特色亮点：</strong></p>
-                                    <ul style="margin-left: 20px; margin-top: 8px;">
-                                        <li>重庆最佳夜景观赏点</li>
-                                        <li>俯瞰渝中半岛全景</li>
-                                        <li>日落和夜景双重美景</li>
-                                        <li>拍照打卡圣地</li>
-                                    </ul>
-                                    <div class="highlight-box">
-                                        <h5>亲子建议</h5>
-                                        <p>傍晚前往可同时看到日落和夜景，注意保暖，观景台有室内休息区</p>
+                                        <p>可在IFS看爬墙熊猫；太古里适合拍照散步；周边美食丰富</p>
                                     </div>
                                 </div>
                             </div>
@@ -2225,8 +2320,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">20:00-21:30</span>
-                                        <span class="timeline-title">晚餐：南山泉水鸡</span>
+                                        <span class="time-badge">18:00-19:30</span>
+                                        <span class="timeline-title">晚餐：龙抄手</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2236,33 +2331,15 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地点：</span>
-                                            <span class="info-value">南山泉水鸡一条街</span>
+                                            <span class="info-value">春熙路附近</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">人均：</span>
-                                            <span class="info-value">60元</span>
+                                            <span class="info-value">25元</span>
                                         </div>
                                     </div>
-                                    <p><strong>推荐：</strong>泉水鸡（可要求不辣）、清炒时蔬、蒸蛋</p>
+                                    <p><strong>推荐菜品：</strong>清汤抄手、红油抄手（可选不辣）</p>
                                     <p><span class="spicy-tag spicy-none">可选不辣</span></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">21:30-22:30</span>
-                                        <span class="timeline-title">返回酒店休息</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <p>打车返回解放碑酒店，结束充实的一天</p>
                                 </div>
                             </div>
                         </div>
@@ -2290,17 +2367,17 @@
                                 </tr>
                                 <tr>
                                     <td>午餐</td>
-                                    <td>两路口附近</td>
-                                    <td>清汤面、蒸蛋</td>
+                                    <td>重庆西站</td>
+                                    <td>便利店/快餐</td>
                                     <td><span class="spicy-tag spicy-none">不辣</span></td>
-                                    <td>25元</td>
+                                    <td>30元</td>
                                 </tr>
                                 <tr>
                                     <td>晚餐</td>
-                                    <td>南山泉水鸡</td>
-                                    <td>泉水鸡（不辣）、清炒时蔬</td>
+                                    <td>龙抄手（春熙路总店）</td>
+                                    <td>清汤抄手、红油抄手</td>
                                     <td><span class="spicy-tag spicy-none">可选不辣</span></td>
-                                    <td>60元</td>
+                                    <td>25元</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -2310,7 +2387,7 @@
                 <div class="day-content" id="day4">
                     <div class="day-header" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                         <h3>第4天：2月22日（周六）</h3>
-                        <p>古镇风情+夜景</p>
+                        <p>成都大熊猫+文化体验</p>
                     </div>
                     <div class="timeline">
                         <div class="timeline-item">
@@ -2318,19 +2395,15 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">08:00-08:30</span>
-                                        <span class="timeline-title">起床，早餐，退房</span>
+                                        <span class="time-badge">07:00-07:30</span>
+                                        <span class="timeline-title">起床，早餐</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p>打包行李，寄存酒店前台（免费）</p>
-                                    <div class="highlight-box">
-                                        <h5>行李寄存</h5>
-                                        <p>解放碑酒店通常提供免费行李寄存服务，晚上回来取行李后再前往西站</p>
-                                    </div>
+                                    <p>简单早餐，准备前往熊猫基地</p>
                                 </div>
                             </div>
                         </div>
@@ -2339,8 +2412,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">08:30-09:30</span>
-                                        <span class="timeline-title">前往磁器口</span>
+                                        <span class="time-badge">07:30-08:30</span>
+                                        <span class="timeline-title">前往熊猫基地</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2350,15 +2423,15 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">路线：</span>
-                                            <span class="info-value">解放碑 → 磁器口</span>
+                                            <span class="info-value">春熙路 → 熊猫基地</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">交通：</span>
-                                            <span class="info-value">地铁1号线直达</span>
+                                            <span class="info-value">地铁3号线+景区直通车</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">时长：</span>
-                                            <span class="info-value">约40分钟</span>
+                                            <span class="info-value">约1小时</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2369,8 +2442,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">09:30-12:30</span>
-                                        <span class="timeline-title">磁器口古镇</span>
+                                        <span class="time-badge">08:30-12:00</span>
+                                        <span class="timeline-title">成都大熊猫繁育研究基地 🐼</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2380,18 +2453,31 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地址：</span>
-                                            <span class="info-value">沙坪坝区磁南街1号</span>
+                                            <span class="info-value">成华区熊猫大道1375号</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">门票：</span>
-                                            <span class="info-value">免费</span>
+                                            <span class="info-value">55元/人，6周岁以下或1.3米以下儿童免费</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">开放：</span>
+                                            <span class="info-value">夏季7:30-18:00，冬季8:00-17:30</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">预约：</span>
+                                            <span class="info-value">需提前在官方公众号预约购票</span>
                                         </div>
                                     </div>
-                                    <p><strong>特色：</strong>千年古镇，陈麻花发源地，老重庆烟火气</p>
-                                    <p><strong>亲子美食：</strong>红糖糍粑、熨斗糕、凉糕（均不辣）</p>
+                                    <p><strong>特色亮点：</strong></p>
+                                    <ul style="margin-left: 20px; margin-top: 8px;">
+                                        <li>全球最大的大熊猫繁育研究基地</li>
+                                        <li>可观赏大熊猫、小熊猫、红熊猫</li>
+                                        <li>大熊猫博物馆科普教育</li>
+                                        <li>大熊猫产房可看幼崽</li>
+                                    </ul>
                                     <div class="highlight-box">
                                         <h5>亲子建议</h5>
-                                        <p>上午人流较少，适合慢慢逛；陈麻花可试吃后购买；注意看管孩子避免走失</p>
+                                        <p>早8点前入园，熊猫最活跃；建议乘坐观光车（20元/人）；园区较大，带推车更便利；南门进入，依次游览</p>
                                     </div>
                                 </div>
                             </div>
@@ -2401,16 +2487,16 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">12:30-14:00</span>
-                                        <span class="timeline-title">午餐：磁器口</span>
+                                        <span class="time-badge">12:00-13:00</span>
+                                        <span class="timeline-title">午餐：基地附近</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p><strong>推荐：</strong>古镇鸡杂（可要求不辣）、毛血旺（可选不辣）、古镇老酸奶</p>
-                                    <p><span class="spicy-tag spicy-none">可选不辣</span> · 人均50元</p>
+                                    <p><strong>推荐：</strong>基地附近简餐</p>
+                                    <p><span class="spicy-tag spicy-none">不辣</span> · 人均35元</p>
                                 </div>
                             </div>
                         </div>
@@ -2419,8 +2505,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">14:00-15:00</span>
-                                        <span class="timeline-title">返回解放碑</span>
+                                        <span class="time-badge">13:00-14:00</span>
+                                        <span class="timeline-title">前往武侯祠</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2429,32 +2515,18 @@
                                 <div class="timeline-card-body">
                                     <div class="info-grid">
                                         <div class="info-item">
+                                            <span class="info-label">路线：</span>
+                                            <span class="info-value">熊猫基地 → 武侯祠</span>
+                                        </div>
+                                        <div class="info-item">
                                             <span class="info-label">交通：</span>
-                                            <span class="info-value">地铁1号线返回</span>
+                                            <span class="info-value">地铁+公交</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">时长：</span>
-                                            <span class="info-value">约40分钟</span>
+                                            <span class="info-value">约1小时</span>
                                         </div>
                                     </div>
-                                    <p>返回酒店取行李，稍作休息</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">15:00-16:00</span>
-                                        <span class="timeline-title">酒店休息</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <p>取回行李，让孩子休息恢复体力</p>
                                 </div>
                             </div>
                         </div>
@@ -2463,8 +2535,8 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">16:00-18:00</span>
-                                        <span class="timeline-title">朝天门/来福士</span>
+                                        <span class="time-badge">14:00-16:00</span>
+                                        <span class="timeline-title">武侯祠+锦里</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2474,29 +2546,96 @@
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">地址：</span>
-                                            <span class="info-value">渝中区长江滨江路</span>
+                                            <span class="info-value">武侯区武侯祠大街231号</span>
                                         </div>
                                         <div class="info-item">
-                                            <span class="info-label">交通：</span>
-                                            <span class="info-value">地铁1号线小什字站</span>
+                                            <span class="info-label">门票：</span>
+                                            <span class="info-value">武侯祠50元/人，儿童1.3米以下免费；锦里免费</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">开放：</span>
+                                            <span class="info-value">武侯祠8:00-18:00，锦里全天</span>
                                         </div>
                                     </div>
-                                    <p><strong>特色：</strong>长江与嘉陵江交汇处，来福士地标建筑</p>
-                                    <p><strong>亮点：</strong>可看两江分界线（江水颜色不同）</p>
+                                    <p><strong>特色亮点：</strong></p>
+                                    <ul style="margin-left: 20px; margin-top: 8px;">
+                                        <li>全国唯一君臣合祀祠庙</li>
+                                        <li>三国文化圣地</li>
+                                        <li>红墙竹影拍照圣地</li>
+                                        <li>锦里古街美食丰富</li>
+                                    </ul>
                                     <div class="highlight-box">
                                         <h5>亲子建议</h5>
-                                        <p>来福士商场内有儿童游乐区和母婴室，可休息补给</p>
+                                        <p>可给孩子讲三国故事；锦里有糖画、皮影等非遗体验；人流较多，注意看护</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot success"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">16:00-17:00</span>
+                                        <span class="timeline-title">四川科技馆（可选）</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <div class="info-grid">
+                                        <div class="info-item">
+                                            <span class="info-label">地址：</span>
+                                            <span class="info-value">青羊区人民中路一段16号</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">门票：</span>
+                                            <span class="info-value">免费（需提前预约）</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">开放：</span>
+                                            <span class="info-value">周二至周日9:20-17:00（周一闭馆）</span>
+                                        </div>
+                                    </div>
+                                    <p><strong>特色亮点：</strong></p>
+                                    <ul style="margin-left: 20px; margin-top: 8px;">
+                                        <li>4层楼20个展区</li>
+                                        <li>航天、机器人、声光电互动体验</li>
+                                        <li>儿童科学乐园专区</li>
+                                        <li>免费科普教育</li>
+                                    </ul>
+                                    <div class="highlight-box">
+                                        <h5>亲子建议</h5>
+                                        <p>提前在官方公众号预约；重点参观儿童科学乐园；互动项目多，孩子喜欢</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot info"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">17:00-18:00</span>
+                                        <span class="timeline-title">返回酒店休整</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <p>返回成都酒店休息</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot warning"></div>
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
                                         <span class="time-badge">18:00-19:30</span>
-                                        <span class="timeline-title">洪崖洞夜景</span>
+                                        <span class="timeline-title">晚餐：马旺子川小馆</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
@@ -2505,58 +2644,16 @@
                                 <div class="timeline-card-body">
                                     <div class="info-grid">
                                         <div class="info-item">
-                                            <span class="info-label">地址：</span>
-                                            <span class="info-value">渝中区嘉陵江滨江路88号</span>
+                                            <span class="info-label">地点：</span>
+                                            <span class="info-value">春熙路附近</span>
                                         </div>
                                         <div class="info-item">
-                                            <span class="info-label">灯光：</span>
-                                            <span class="info-value">19:30-23:00</span>
+                                            <span class="info-label">人均：</span>
+                                            <span class="info-value">80元</span>
                                         </div>
                                     </div>
-                                    <p><strong>特色：</strong>现实版"千与千寻"，吊脚楼建筑群</p>
-                                    <div class="highlight-box">
-                                        <h5>亲子建议</h5>
-                                        <p>从沧白路入口乘直达电梯，最佳打卡时间19:00-21:00；亮灯后景色最美</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot warning"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">19:30-20:30</span>
-                                        <span class="timeline-title">晚餐：解放碑</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <p><strong>推荐：</strong>八一好吃街或酒店附近餐厅</p>
-                                    <p><span class="spicy-tag spicy-none">可选不辣</span> · 人均40元</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot info"></div>
-                            <div class="timeline-card">
-                                <div class="timeline-card-header">
-                                    <div class="timeline-time">
-                                        <span class="time-badge">20:30-21:30</span>
-                                        <span class="timeline-title">前往重庆西站</span>
-                                    </div>
-                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </div>
-                                <div class="timeline-card-body">
-                                    <p><strong>交通：</strong>地铁2号线→环线，约1小时</p>
-                                    <div class="highlight-box">
-                                        <h5>温馨提示</h5>
-                                        <p>地铁运营时间约06:30-22:30，请合理安排时间；打车约50-70元，40分钟可达</p>
-                                    </div>
+                                    <p><strong>推荐菜品：</strong>宫保虾球（不辣）、蒜泥白肉</p>
+                                    <p><span class="spicy-tag spicy-none">可选不辣</span> · 米其林一星，儿童友好</p>
                                 </div>
                             </div>
                         </div>
@@ -2578,23 +2675,23 @@
                                 <tr>
                                     <td>早餐</td>
                                     <td>酒店附近</td>
-                                    <td>清汤小面、豆浆油条</td>
+                                    <td>豆浆油条、包子</td>
                                     <td><span class="spicy-tag spicy-none">不辣</span></td>
                                     <td>15元</td>
                                 </tr>
                                 <tr>
                                     <td>午餐</td>
-                                    <td>磁器口古镇</td>
-                                    <td>古镇鸡杂（不辣）、老酸奶</td>
-                                    <td><span class="spicy-tag spicy-none">可选不辣</span></td>
-                                    <td>50元</td>
+                                    <td>熊猫基地附近</td>
+                                    <td>简餐</td>
+                                    <td><span class="spicy-tag spicy-none">不辣</span></td>
+                                    <td>35元</td>
                                 </tr>
                                 <tr>
                                     <td>晚餐</td>
-                                    <td>解放碑/八一好吃街</td>
-                                    <td>山城汤圆、红糖糍粑、凉糕</td>
-                                    <td><span class="spicy-tag spicy-none">不辣</span></td>
-                                    <td>40元</td>
+                                    <td>马旺子川小馆</td>
+                                    <td>宫保虾球、蒜泥白肉</td>
+                                    <td><span class="spicy-tag spicy-none">可选不辣</span></td>
+                                    <td>80元</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -2604,7 +2701,7 @@
                 <div class="day-content" id="day5">
                     <div class="day-header" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
                         <h3>第5天：2月23日（周日）</h3>
-                        <p>返程</p>
+                        <p>成都→重庆西站返程</p>
                     </div>
                     <div class="timeline">
                         <div class="timeline-item">
@@ -2612,7 +2709,7 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">06:30-07:00</span>
+                                        <span class="time-badge">06:00-06:30</span>
                                         <span class="timeline-title">起床，收拾行李</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -2620,7 +2717,7 @@
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p>重庆西站酒店，准备返程</p>
+                                    <p>成都酒店，打包行李，准备返程</p>
                                 </div>
                             </div>
                         </div>
@@ -2629,16 +2726,96 @@
                             <div class="timeline-card">
                                 <div class="timeline-card-header">
                                     <div class="timeline-time">
-                                        <span class="time-badge">07:30-08:30</span>
-                                        <span class="timeline-title">前往重庆西站</span>
+                                        <span class="time-badge">06:30-07:30</span>
+                                        <span class="timeline-title">前往成都东站</span>
                                     </div>
                                     <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p><strong>交通：</strong>步行5-10分钟抵达西站</p>
-                                    <p><strong>提醒：</strong>预留充足时间候车</p>
+                                    <div class="info-grid">
+                                        <div class="info-item">
+                                            <span class="info-label">路线：</span>
+                                            <span class="info-value">春熙路 → 成都东站</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">交通：</span>
+                                            <span class="info-value">地铁2号线直达</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">时长：</span>
+                                            <span class="info-value">约1小时</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">07:30-08:00</span>
+                                        <span class="timeline-title">候车</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <p>成都东站候车，预留充足时间</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot info"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">08:00-09:30</span>
+                                        <span class="timeline-title">高铁返回重庆 🚄</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <div class="info-grid">
+                                        <div class="info-item">
+                                            <span class="info-label">车次：</span>
+                                            <span class="info-value">G2370次（成都东07:06→重庆西08:30）</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">路线：</span>
+                                            <span class="info-value">成都东 → 重庆西</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">时长：</span>
+                                            <span class="info-value">约1小时30分</span>
+                                        </div>
+                                        <div class="info-item">
+                                            <span class="info-label">票价：</span>
+                                            <span class="info-value">二等座146元/人，儿童半价73元</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot success"></div>
+                            <div class="timeline-card">
+                                <div class="timeline-card-header">
+                                    <div class="timeline-time">
+                                        <span class="time-badge">09:30-10:00</span>
+                                        <span class="timeline-title">抵达重庆西站</span>
+                                    </div>
+                                    <svg class="timeline-expand-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="timeline-card-body">
+                                    <p>准时抵达重庆西站</p>
                                 </div>
                             </div>
                         </div>
@@ -2655,10 +2832,202 @@
                                     </svg>
                                 </div>
                                 <div class="timeline-card-body">
-                                    <p>确保准时出发，结束愉快的重庆之旅！</p>
+                                    <p>确保准时出发，结束愉快的重庆+成都跨城亲子之旅！</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section fade-in" id="chengdu-attractions">
+                <div class="section-header">
+                    <div class="section-title">
+                        <div class="section-title-icon">🐼</div>
+                        <h2>成都段亲子友好型景点详解</h2>
+                    </div>
+                </div>
+
+                <div class="attraction-detail-card">
+                    <div class="attraction-detail-header" style="background: linear-gradient(135deg, #10B981, #34D399);">
+                        <h3>1. 成都大熊猫繁育研究基地</h3>
+                        <span class="attraction-badge">必游景点</span>
+                    </div>
+                    <div class="attraction-detail-body">
+                        <div class="info-grid" style="margin-bottom: var(--spacing-md);">
+                            <div class="info-item">
+                                <span class="info-label">地址：</span>
+                                <span class="info-value">成华区熊猫大道1375号</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">门票：</span>
+                                <span class="info-value">成人55元，儿童（6周岁以下或1.3米以下）免费</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">开放时间：</span>
+                                <span class="info-value">夏季7:30-18:00，冬季8:00-17:30</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">预约方式：</span>
+                                <span class="info-value">官方公众号"成都熊猫基地"预约购票</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">建议游览时间：</span>
+                                <span class="info-value">3-4小时</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">最佳游览时段：</span>
+                                <span class="info-value">8:00-11:00（熊猫最活跃）</span>
+                            </div>
+                        </div>
+                        <p><strong>游玩路线推荐：</strong>南门入口 → 观光车站 → 大熊猫1号别墅 → 大熊猫2号别墅 → 大熊猫产房 → 小熊猫区 → 大熊猫博物馆 → 出园</p>
+                        <p><strong>特色体验项目：</strong>大熊猫产房观看幼崽、小熊猫散养区互动、大熊猫博物馆科普、4D影院观影（另收费）</p>
+                        <p><strong>儿童互动环节：</strong>大熊猫知识问答、科普讲解服务、熊猫主题纪念品商店</p>
+                        <div class="highlight-box">
+                            <h5>安全提示</h5>
+                            <p>园区内禁止投喂动物；不要使用闪光灯拍照；保持安静，不要大声喧哗；看护好儿童，不要翻越护栏</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attraction-detail-card">
+                    <div class="attraction-detail-header" style="background: linear-gradient(135deg, #8B5CF6, #A78BFA);">
+                        <h3>2. 武侯祠+锦里古街</h3>
+                        <span class="attraction-badge">文化体验</span>
+                    </div>
+                    <div class="attraction-detail-body">
+                        <div class="info-grid" style="margin-bottom: var(--spacing-md);">
+                            <div class="info-item">
+                                <span class="info-label">地址：</span>
+                                <span class="info-value">武侯区武侯祠大街231号</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">门票：</span>
+                                <span class="info-value">武侯祠50元，锦里免费；儿童1.3米以下免费</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">开放时间：</span>
+                                <span class="info-value">武侯祠8:00-18:00，锦里全天</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">建议游览时间：</span>
+                                <span class="info-value">2-3小时</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">最佳游览时段：</span>
+                                <span class="info-value">下午14:00-17:00</span>
+                            </div>
+                        </div>
+                        <p><strong>游玩路线推荐：</strong>武侯祠大门 → 刘备殿 → 诸葛亮殿 → 三绝碑 → 红墙夹道 → 锦里古街 → 美食区 → 非遗体验区 → 出口</p>
+                        <p><strong>特色体验项目：</strong>红墙竹影拍照、三国文化展览、锦里糖画制作、皮影戏表演</p>
+                        <p><strong>儿童互动环节：</strong>三国故事讲解、糖画DIY体验、面人制作、川剧变脸表演（定时）</p>
+                        <div class="highlight-box">
+                            <h5>安全提示</h5>
+                            <p>锦里人流密集，注意看护；古建筑内禁止奔跑；美食街注意食品卫生；避开高峰时段（周末下午）</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attraction-detail-card">
+                    <div class="attraction-detail-header" style="background: linear-gradient(135deg, #3B82F6, #60A5FA);">
+                        <h3>3. 四川科技馆</h3>
+                        <span class="attraction-badge">免费景点</span>
+                    </div>
+                    <div class="attraction-detail-body">
+                        <div class="info-grid" style="margin-bottom: var(--spacing-md);">
+                            <div class="info-item">
+                                <span class="info-label">地址：</span>
+                                <span class="info-value">青羊区人民中路一段16号</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">门票：</span>
+                                <span class="info-value">免费（需提前预约）</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">开放时间：</span>
+                                <span class="info-value">周二至周日9:20-17:00（周一闭馆）</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">预约方式：</span>
+                                <span class="info-value">官方公众号"四川科技馆"预约</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">建议游览时间：</span>
+                                <span class="info-value">2-3小时</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">最佳游览时段：</span>
+                                <span class="info-value">上午9:30-12:00</span>
+                            </div>
+                        </div>
+                        <p><strong>游玩路线推荐：</strong>一楼：航天航空展区 → 二楼：机器人展区 → 三楼：声光电展区 → 四楼：儿童科学乐园</p>
+                        <p><strong>特色体验项目：</strong>模拟驾驶飞机、机器人互动、静电体验、光学迷宫</p>
+                        <p><strong>儿童互动环节：</strong>儿童科学乐园（4楼）、科学实验表演、互动游戏设备、科普电影</p>
+                        <div class="highlight-box">
+                            <h5>安全提示</h5>
+                            <p>部分项目需排队；注意设备使用说明；儿童需家长陪同；勿触摸展品敏感部位</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attraction-detail-card">
+                    <div class="attraction-detail-header" style="background: linear-gradient(135deg, #EC4899, #F472B6);">
+                        <h3>4. 海昌极地海洋世界（备选）</h3>
+                        <span class="attraction-badge">备选景点</span>
+                    </div>
+                    <div class="attraction-detail-body">
+                        <div class="info-grid" style="margin-bottom: var(--spacing-md);">
+                            <div class="info-item">
+                                <span class="info-label">地址：</span>
+                                <span class="info-value">天府新区华阳海洋路68号</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">门票：</span>
+                                <span class="info-value">成人170元起，儿童1.0-1.4米优惠票</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">开放时间：</span>
+                                <span class="info-value">9:30-18:00</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">建议游览时间：</span>
+                                <span class="info-value">4-5小时</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">最佳游览时段：</span>
+                                <span class="info-value">工作日上午</span>
+                            </div>
+                        </div>
+                        <p><strong>特色体验项目：</strong>白鲸表演、海豚表演、企鹅馆、北极熊馆、4D影院</p>
+                        <p><strong>儿童互动环节：</strong>海洋动物喂食、触摸池体验、海洋科普课堂</p>
+                    </div>
+                </div>
+
+                <div class="attraction-detail-card">
+                    <div class="attraction-detail-header" style="background: linear-gradient(135deg, #F59E0B, #FBBF24);">
+                        <h3>5. 成都动物园（备选）</h3>
+                        <span class="attraction-badge">性价比高</span>
+                    </div>
+                    <div class="attraction-detail-body">
+                        <div class="info-grid" style="margin-bottom: var(--spacing-md);">
+                            <div class="info-item">
+                                <span class="info-label">地址：</span>
+                                <span class="info-value">成华区昭觉寺南路234号</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">门票：</span>
+                                <span class="info-value">成人20元，儿童1.3米以下免费</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">开放时间：</span>
+                                <span class="info-value">8:00-17:30</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">建议游览时间：</span>
+                                <span class="info-value">2-3小时</span>
+                            </div>
+                        </div>
+                        <p><strong>特色亮点：</strong>大熊猫、金丝猴等珍稀动物；儿童动物园互动区；门票便宜，性价比高</p>
                     </div>
                 </div>
             </section>
@@ -2702,7 +3071,7 @@
                 <div class="supplement-content" id="snacks">
                     <div class="snack-category">
                         <div class="snack-category-title">
-                            <h4>不辣小吃</h4>
+                            <h4>重庆特色小吃（不辣）</h4>
                             <span class="spicy-tag spicy-none">儿童友好</span>
                         </div>
                         <div class="snack-grid">
@@ -2730,7 +3099,7 @@
                     </div>
                     <div class="snack-category">
                         <div class="snack-category-title">
-                            <h4>微辣小吃</h4>
+                            <h4>重庆特色小吃（微辣）</h4>
                             <span class="spicy-tag spicy-mild">可选不辣</span>
                         </div>
                         <div class="snack-grid">
@@ -2743,6 +3112,44 @@
                                 <div class="snack-name">清汤抄手</div>
                                 <div class="snack-desc">皮薄馅大，可选清汤</div>
                                 <div class="snack-meta"><span>抄手佬</span><span>18元</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="snack-category">
+                        <div class="snack-category-title">
+                            <h4>成都特色小吃（不辣）</h4>
+                            <span class="spicy-tag spicy-none">儿童友好</span>
+                        </div>
+                        <div class="snack-grid">
+                            <div class="snack-card">
+                                <div class="snack-name">赖汤圆</div>
+                                <div class="snack-desc">成都名小吃，软糯香甜</div>
+                                <div class="snack-meta"><span>赖汤圆总店</span><span>15元</span></div>
+                            </div>
+                            <div class="snack-card">
+                                <div class="snack-name">三大炮</div>
+                                <div class="snack-desc">糯米团，红糖芝麻香</div>
+                                <div class="snack-meta"><span>锦里古街</span><span>10元</span></div>
+                            </div>
+                            <div class="snack-card">
+                                <div class="snack-name">糖油果子</div>
+                                <div class="snack-desc">外酥内糯，甜而不腻</div>
+                                <div class="snack-meta"><span>锦里古街</span><span>8元</span></div>
+                            </div>
+                            <div class="snack-card">
+                                <div class="snack-name">蛋烘糕</div>
+                                <div class="snack-desc">外皮酥脆，馅料丰富</div>
+                                <div class="snack-meta"><span>贺记蛋烘糕</span><span>6元</span></div>
+                            </div>
+                            <div class="snack-card">
+                                <div class="snack-name">钟水饺</div>
+                                <div class="snack-desc">皮薄馅嫩，可选不辣</div>
+                                <div class="snack-meta"><span>钟水饺总店</span><span>20元</span></div>
+                            </div>
+                            <div class="snack-card">
+                                <div class="snack-name">龙抄手</div>
+                                <div class="snack-desc">成都名小吃，清汤鲜美</div>
+                                <div class="snack-meta"><span>龙抄手总店</span><span>25元</span></div>
                             </div>
                         </div>
                     </div>
@@ -2776,7 +3183,6 @@
                             <tr><td>磁器口</td><td>1号线</td><td>磁器口站</td><td>1号出口步行10分钟</td></tr>
                             <tr><td>长江索道（南站）</td><td>6号线</td><td>上新街站</td><td>2号出口步行5分钟</td></tr>
                             <tr><td>皇冠大扶梯</td><td>1/3号线</td><td>两路口站</td><td>3号出口直达</td></tr>
-                            <tr><td>鹅岭二厂</td><td>1号线</td><td>鹅岭站</td><td>1号出口步行15分钟</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -2787,20 +3193,19 @@
                         <thead><tr><th>景点</th><th>预约方式</th><th>预约时间</th><th>备注</th></tr></thead>
                         <tbody>
                             <tr><td>重庆动物园</td><td>无需预约</td><td>现场购票</td><td>1.2米以下儿童免费，建议早9点前到达</td></tr>
-                            <tr><td>长江索道</td><td>微信公众号"长江索道"</td><td>提前1天</td><td>建议购买单程票（南站→北站），避免排队</td></tr>
-                            <tr><td>南山一棵树</td><td>美团/携程/现场</td><td>当天可购</td><td>18:00后入园可看夜景，1.2米以下免费</td></tr>
-                            <tr><td>洪崖洞</td><td>无需预约</td><td>免费开放</td><td>亮灯时间19:30-23:00，人流高峰20:00-21:00</td></tr>
-                            <tr><td>磁器口古镇</td><td>无需预约</td><td>免费开放</td><td>周末人流较大，建议上午前往</td></tr>
                             <tr><td>李子坝观景台</td><td>无需预约</td><td>免费开放</td><td>全天开放，轻轨约5-8分钟一班</td></tr>
                             <tr><td>皇冠大扶梯</td><td>无需预约</td><td>现场购票</td><td>单程2元，建议准备零钱</td></tr>
-                            <tr><td>鹅岭二厂</td><td>无需预约</td><td>免费开放</td><td>部分展览需单独购票</td></tr>
+                            <tr><td>成都熊猫基地</td><td>官方公众号"成都熊猫基地"</td><td>建议提前1-3天</td><td>6周岁以下或1.3米以下儿童免费</td></tr>
+                            <tr><td>武侯祠</td><td>现场/线上</td><td>建议提前1天</td><td>儿童1.3米以下免费</td></tr>
+                            <tr><td>四川科技馆</td><td>官方公众号"四川科技馆"</td><td>必须提前3-7天</td><td>周一闭馆，免费参观</td></tr>
                         </tbody>
                     </table>
                     <div class="tip-box" style="margin-top: var(--spacing-lg);">
                         <h5>预约提醒</h5>
                         <p>• 春节期间（1-2月）部分景点可能需要预约，建议出行前再次确认</p>
-                        <p>• 关注"重庆本地宝"微信公众号获取最新预约信息</p>
+                        <p>• 关注"重庆本地宝"、"成都本地宝"微信公众号获取最新预约信息</p>
                         <p>• 建议提前下载美团、携程APP，方便购票</p>
+                        <p>• 高铁票建议提前在12306购买，儿童票需携带户口本或身份证</p>
                     </div>
                 </div>
 
@@ -2808,17 +3213,27 @@
                     <h4>亲子出行注意事项</h4>
                     <ul class="notice-list">
                         <li><span class="notice-number">1</span><span><strong>穿着：</strong>重庆多爬坡上坎，给孩子穿舒适运动鞋</span></li>
-                        <li><span class="notice-number">2</span><span><strong>保暖：</strong>2月早晚温差大，带薄外套</span></li>
+                        <li><span class="notice-number">2</span><span><strong>保暖：</strong>2月早晚温差大，重庆8-12℃，成都6-10℃，带薄外套</span></li>
                         <li><span class="notice-number">3</span><span><strong>安全：</strong>人流密集处给孩子佩戴姓名牌</span></li>
                         <li><span class="notice-number">4</span><span><strong>餐饮：</strong>告知商家"宝宝辣度"或"不辣"</span></li>
                         <li><span class="notice-number">5</span><span><strong>休息：</strong>每天安排午休时间，避免过度疲劳</span></li>
+                        <li><span class="notice-number">6</span><span><strong>证件：</strong>儿童出行需携带户口本或身份证，高铁购票需用</span></li>
                     </ul>
                     <div class="tip-box">
-                        <h5>避坑指南</h5>
+                        <h5>重庆避坑指南</h5>
                         <p>• 长江索道：只买单程票，往返景色相似</p>
                         <p>• 洪崖洞：走沧白路入口乘直达电梯，避免爬楼梯</p>
                         <p>• 火锅：必选鸳鸯锅，清汤区适合儿童</p>
                         <p>• 辣度：重庆"微辣"≈外地"中辣"，要点"不辣"</p>
+                        <p>• 导航：山城导航可能失灵，多问路人</p>
+                    </div>
+                    <div class="tip-box" style="margin-top: var(--spacing-md);">
+                        <h5>成都避坑指南</h5>
+                        <p>• 熊猫基地：早8点前入园，熊猫最活跃</p>
+                        <p>• 锦里：避开周末下午高峰</p>
+                        <p>• 火锅：选择鸳鸯锅，告知"宝宝辣度"</p>
+                        <p>• 科技馆：周一闭馆，提前预约</p>
+                        <p>• 打车：高峰期难打车，优先选择地铁</p>
                     </div>
                     <h4 style="margin-top: var(--spacing-lg);">紧急联系信息</h4>
                     <table class="transport-table">
@@ -2827,42 +3242,54 @@
                             <tr><td>报警电话</td><td>110</td><td>紧急情况</td></tr>
                             <tr><td>急救电话</td><td>120</td><td>医疗救助</td></tr>
                             <tr><td>火警电话</td><td>119</td><td>火灾救援</td></tr>
-                            <tr><td>旅游投诉</td><td>023-12345</td><td>重庆政务服务热线</td></tr>
-                            <tr><td>重庆儿童医院</td><td>023-63630784</td><td>渝中区中山二路</td></tr>
-                            <tr><td>重庆急救中心</td><td>023-120</td><td>解放碑附近</td></tr>
-                            <tr><td>地铁客服</td><td>023-68002222</td><td>重庆轨道交通热线</td></tr>
+                            <tr><td>重庆旅游投诉</td><td>023-12345</td><td>重庆政务服务热线</td></tr>
+                            <tr><td>成都旅游投诉</td><td>028-12345</td><td>成都政务服务热线</td></tr>
+                            <tr><td>重庆儿童医院</td><td>023-63632756</td><td>渝中区中山二路136号，三甲儿童专科</td></tr>
+                            <tr><td>成都妇女儿童中心医院</td><td>028-61866161</td><td>青羊区日月大道1617号，三甲儿童专科</td></tr>
+                            <tr><td>重庆地铁客服</td><td>023-68002222</td><td>重庆轨道交通热线</td></tr>
+                            <tr><td>成都地铁客服</td><td>028-61638666</td><td>成都轨道交通热线</td></tr>
+                            <tr><td>12306客服</td><td>12306</td><td>铁路客服热线</td></tr>
                         </tbody>
                     </table>
                     <div class="highlight-box" style="margin-top: var(--spacing-lg);">
                         <h5>温馨提示</h5>
-                        <p>• 2月重庆平均气温8-12℃，早晚温差大，建议携带薄羽绒服</p>
-                        <p>• 重庆多雾，湿度大，建议携带雨具</p>
+                        <p>• 2月重庆平均气温8-12℃，成都6-10℃，早晚温差大，建议携带薄羽绒服</p>
+                        <p>• 重庆多雾，成都多雨，建议携带雨具</p>
                         <p>• 建议购买旅游意外险，保障出行安全</p>
+                        <p>• 高铁出行提前30分钟到达车站，预留安检时间</p>
                     </div>
                 </div>
 
                 <div class="supplement-content" id="budget">
                     <div class="budget-card">
                         <h4>预算参考</h4>
-                        <div class="budget-total">2900-4400元</div>
-                        <p class="budget-range">2大1小 · 5天4晚</p>
+                        <div class="budget-total">3050-3650元</div>
+                        <p class="budget-range">2大1小 · 5天4晚 · 重庆+成都跨城</p>
                         <div class="budget-breakdown">
                             <div class="budget-item">
                                 <div class="budget-item-label">住宿（4晚）</div>
-                                <div class="budget-item-value">1400-2200元</div>
+                                <div class="budget-item-value">1200-1800元</div>
+                            </div>
+                            <div class="budget-item">
+                                <div class="budget-item-label">交通（含高铁）</div>
+                                <div class="budget-item-value">约500元</div>
                             </div>
                             <div class="budget-item">
                                 <div class="budget-item-label">门票</div>
-                                <div class="budget-item-value">约210元</div>
+                                <div class="budget-item-value">约264元</div>
                             </div>
                             <div class="budget-item">
                                 <div class="budget-item-label">餐饮</div>
-                                <div class="budget-item-value">1000-1600元</div>
+                                <div class="budget-item-value">约800元</div>
                             </div>
                             <div class="budget-item">
-                                <div class="budget-item-label">交通</div>
-                                <div class="budget-item-value">250-350元</div>
+                                <div class="budget-item-label">其他</div>
+                                <div class="budget-item-value">约300元</div>
                             </div>
+                        </div>
+                        <div style="margin-top: var(--spacing-md); padding: var(--spacing-sm); background: var(--color-bg-tertiary); border-radius: var(--radius-sm); font-size: 12px;">
+                            <p style="margin: 0;"><strong>高铁费用：</strong>重庆西→成都东 365元（2大1小）+ 成都东→重庆西 365元（2大1小）= 730元</p>
+                            <p style="margin: var(--spacing-xs) 0 0 0;"><strong>门票费用：</strong>重庆动物园50元 + 皇冠大扶梯4元 + 成都熊猫基地110元 + 武侯祠100元 = 264元</p>
                         </div>
                     </div>
                 </div>
@@ -2877,36 +3304,41 @@
                 </div>
                 <div class="feature-list">
                     <div class="feature-item">
-                        <div class="feature-icon">🏨</div>
-                        <span>最后一晚住宿重庆西站附近，确保返程便利</span>
+                        <div class="feature-icon">🚄</div>
+                        <span>跨城体验：重庆山城特色 + 成都熊猫文化，一次旅行两种体验</span>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">🎯</div>
-                        <span>景点均为重庆特色，排除普遍景点</span>
+                        <span>高铁连接两城，时间可控，儿童舒适</span>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">👶</div>
-                        <span>亲子友好，适合5岁儿童</span>
+                        <span>亲子友好，景点选择兼顾教育意义与娱乐性</span>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">🗺️</div>
-                        <span>不走回头路，路线合理</span>
+                        <span>节奏合理，每日核心游览时间不超过6小时</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🍜</div>
+                        <span>美食丰富，精选儿童友好餐厅</span>
                     </div>
                 </div>
                 <h4 style="margin-top: var(--spacing-lg);">重庆特色景点清单</h4>
                 <div class="attractions-grid">
-                    <div class="attraction-chip"><span class="attraction-number">1</span>重庆动物园 - 23只大熊猫</div>
+                    <div class="attraction-chip"><span class="attraction-number">1</span>重庆动物园 - 全国大熊猫最多</div>
                     <div class="attraction-chip"><span class="attraction-number">2</span>李子坝轻轨穿楼 - 8D魔幻</div>
                     <div class="attraction-chip"><span class="attraction-number">3</span>皇冠大扶梯 - 亚洲第二长</div>
                     <div class="attraction-chip"><span class="attraction-number">4</span>山城步道 - 老重庆风貌</div>
                     <div class="attraction-chip"><span class="attraction-number">5</span>白象居 - 无电梯魔幻建筑</div>
-                    <div class="attraction-chip"><span class="attraction-number">6</span>长江索道 - 跨江空中交通</div>
-                    <div class="attraction-chip"><span class="attraction-number">7</span>弹子石老街 - 山城老街</div>
-                    <div class="attraction-chip"><span class="attraction-number">8</span>磁器口古镇 - 千年古镇</div>
-                    <div class="attraction-chip"><span class="attraction-number">9</span>洪崖洞 - 千与千寻同款</div>
-                    <div class="attraction-chip"><span class="attraction-number">10</span>朝天门/来福士 - 两江交汇</div>
-                    <div class="attraction-chip"><span class="attraction-number">11</span>鹅岭二厂 - 文创公园</div>
-                    <div class="attraction-chip"><span class="attraction-number">12</span>南山一棵树 - 夜景圣地</div>
+                </div>
+                <h4 style="margin-top: var(--spacing-lg);">成都特色景点清单</h4>
+                <div class="attractions-grid">
+                    <div class="attraction-chip"><span class="attraction-number">1</span>成都大熊猫繁育研究基地 - 全球最大熊猫基地</div>
+                    <div class="attraction-chip"><span class="attraction-number">2</span>武侯祠 - 三国文化圣地</div>
+                    <div class="attraction-chip"><span class="attraction-number">3</span>锦里古街 - 成都美食文化</div>
+                    <div class="attraction-chip"><span class="attraction-number">4</span>四川科技馆 - 免费科普教育</div>
+                    <div class="attraction-chip"><span class="attraction-number">5</span>春熙路/太古里 - 成都时尚地标</div>
                 </div>
             </section>
         </div>
@@ -2915,7 +3347,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>重庆亲子游详细行程规划方案 · 2大1小 · 5天4晚</p>
+                <p>重庆+成都跨城亲子游详细行程规划方案 · 2大1小 · 5天4晚</p>
             </div>
         </div>
     </footer>
